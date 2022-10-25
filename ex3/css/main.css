@@ -1,0 +1,43 @@
+html,body,ul,li{
+	margin:0;
+	padding:0;
+}
+body{									
+	height:1030px;	
+	background-image:url("../res/spring.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;					
+}
+*{
+	box-sizing:border-box;
+}
+body>* {											
+		margin: 0 auto;
+		margin-top: 5px;
+}
+header{
+	color:#c06179;
+	text-align: center;
+	font-size: 22px;
+	font-family: 华文中宋;
+	font-weight: 400;
+}
+section{
+	height: 800px;
+}
+footer{
+	line-height: 45px;			
+}
+footer>ul{
+	display:flex;
+	justify-content: space-around;
+}
+ul li{
+	list-style: none;
+	text-align: center;
+	color: #161817;
+	font-size: 22px;
+	font-family: 华文中宋;
+	font-weight: 400;
+	border: 2px solid #161817;
+}
